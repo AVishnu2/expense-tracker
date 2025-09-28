@@ -1,0 +1,24 @@
+:root { --bg:#f7f8fb; --card:#fff; --accent:#2b7aee; --muted:#666; --danger:#ea4335; --ok:#2ea44f; }
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:var(--bg);margin:0;padding:20px;color:#111}
+.container{max-width:900px;margin:0 auto}
+h1{margin-bottom:12px}
+.card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(18,24,40,0.06);margin-bottom:16px}
+form.row{display:flex;gap:8px;align-items:center}
+.row{margin-bottom:10px}
+.row label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+input[type="text"], input[type="number"], input[type="date"]{width:100%;padding:10px;border:1px solid #e6e7ea;border-radius:6px}
+.actions{display:flex;gap:8px;justify-content:flex-end}
+button{background:var(--accent);color:#fff;border:0;padding:10px 14px;border-radius:8px;cursor:pointer}
+button.secondary{background:#f0f0f3;color:#111}
+table{width:100%;border-collapse:collapse}
+th, td{padding:8px 10px;text-align:left;border-bottom:1px solid #f0f0f3}
+.actions button.small{padding:6px 8px;font-size:13px;border-radius:6px}
+.btn-edit{background:#f7b500;color:#111}
+.btn-delete{background:var(--danger)}
+.message{margin-top:8px;font-size:14px;color:var(--muted)}
+@media (min-width:720px){
+  form .row{display:flex;gap:12px}
+  .row label{width:120px; flex-shrink:0}
+  .row input {flex:1}
+}
