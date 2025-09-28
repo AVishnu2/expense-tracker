@@ -1,7 +1,7 @@
 # Expense Tracker
 
 Track your daily expenses easily with this simple web app.  
-
+<img width="1903" height="951" alt="Image" src="https://github.com/user-attachments/assets/50cecff0-75e7-4d2f-88bf-26bc3d4502e6" />
 ---
 
 ## Features
