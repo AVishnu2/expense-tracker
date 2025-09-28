@@ -1,6 +1,6 @@
 # Expense Tracker
 
-Track your daily expenses easily with this simple web app.
+# Track your daily expenses easily with this simple web app.
 
 The Expense Tracker helps users manage their daily finances by adding, editing, and deleting expenses with details like amount, category, date, and description. Built with HTML, CSS, JavaScript, PHP, and MySQL, it has a clean and responsive design for easy use on any device. By tracking spending amounts, it helps users plan budgets, save money, and make better financial decisions.
 
