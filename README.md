@@ -1,7 +1,6 @@
 # Expense Tracker
 
 Track your daily expenses easily with this simple web app.  
-![Expense Tracker Screenshot](images/89229b37-415e-4d16-8aa6-f565bbb4bab1.png)
 
 ---
 
